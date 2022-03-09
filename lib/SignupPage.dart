@@ -10,7 +10,7 @@ class SignupPage extends StatelessWidget {
         appBar: AppBar(
           elevation: 0,
           brightness: Brightness.light,
-          backgroundColor: Colors.pink,
+          backgroundColor: Colors.lightBlue,
           leading: IconButton(
             onPressed: () {
               Navigator.pop(context);
@@ -76,7 +76,7 @@ class SignupPage extends StatelessWidget {
                           MaterialPageRoute(
                               builder: (context) => Catagories()));
                     },
-                    color: Colors.pink,
+                    color: Colors.lightBlue,
                     elevation: 0,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(50),

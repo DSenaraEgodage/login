@@ -10,7 +10,7 @@ class PoliticalPage extends StatelessWidget {
           title: Text("Political"),
           elevation: 0,
           brightness: Brightness.light,
-          backgroundColor: Colors.pink,
+          backgroundColor: Colors.lightBlue,
           leading: IconButton(
             onPressed: () {
               Navigator.pop(context);

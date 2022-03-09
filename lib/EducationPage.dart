@@ -10,7 +10,7 @@ class EducationPage extends StatelessWidget {
           title: Text("Education"),
           elevation: 0,
           brightness: Brightness.light,
-          backgroundColor: Colors.pink,
+          backgroundColor: Colors.lightBlue,
           leading: IconButton(
             onPressed: () {
               Navigator.pop(context);

@@ -10,7 +10,7 @@ class SportsPage extends StatelessWidget {
           title: Text("Sports"),
           elevation: 0,
           brightness: Brightness.light,
-          backgroundColor: Colors.pink,
+          backgroundColor: Colors.lightBlue,
           leading: IconButton(
             onPressed: () {
               Navigator.pop(context);

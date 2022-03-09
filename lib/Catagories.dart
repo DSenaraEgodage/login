@@ -14,7 +14,7 @@ class Catagories extends StatelessWidget {
           title: Text("Catagories"),
           elevation: 0,
           brightness: Brightness.light,
-          backgroundColor: Colors.pink,
+          backgroundColor: Colors.lightBlue,
           leading: IconButton(
             onPressed: () {
               Navigator.pop(context);
@@ -67,7 +67,7 @@ class Catagories extends StatelessWidget {
                       ],
                     ),
                     textColor: Color(0xFF292929),
-                    color: Colors.pink),
+                    color: Colors.lightBlue),
                 Padding(
                   padding: const EdgeInsets.only(
                       left: 0.0, right: 0.0, top: 30.0, bottom: 0.0),
@@ -101,7 +101,7 @@ class Catagories extends StatelessWidget {
                         ],
                       ),
                       textColor: Color(0xFF292929),
-                      color: Colors.pink),
+                      color: Colors.lightBlue),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(
@@ -136,7 +136,7 @@ class Catagories extends StatelessWidget {
                         ],
                       ),
                       textColor: Color(0xFF292929),
-                      color: Colors.pink),
+                      color: Colors.lightBlue),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(
@@ -171,7 +171,7 @@ class Catagories extends StatelessWidget {
                         ],
                       ),
                       textColor: Color(0xFF292929),
-                      color: Colors.pink),
+                      color: Colors.lightBlue),
                 )
               ],
             ),

@@ -22,8 +22,8 @@ class HomePage extends StatelessWidget {
                     "Fakeex",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 30,
-                        color: Colors.pink),
+                        fontSize: 35,
+                        color: Colors.lightBlue),
                   ),
                   SizedBox(),
                   /*Text(
@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
                   MaterialButton(
                     minWidth: double.infinity,
                     height: 50,
-                    color: Colors.pink,
+                    color: Colors.lightBlue,
                     onPressed: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => LoginPage()));
@@ -87,7 +87,7 @@ class HomePage extends StatelessWidget {
                   MaterialButton(
                     minWidth: double.infinity,
                     height: 50,
-                    color: Colors.pink,
+                    color: Colors.lightBlue,
                     onPressed: () {
                       Navigator.push(
                           context,
